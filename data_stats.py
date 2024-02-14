@@ -35,5 +35,6 @@ if __name__ == '__main__':
     for key, value in data.items():
         if isinstance(value, list):
             print(f'{key}: Length = {len(value)}, Sequence = {value[:3]}...{value[-3:]}')
+            # print(f'{key}: Length = {len(value)}, Sequence = {value[:]}')
         else:
             print(f'{key}: {value}')
